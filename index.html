@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+f<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -499,7 +499,7 @@ async function submitForm(){
 
   // ── Send to Google Sheets via Apps Script ──────────────
   let backendOk = false;
-  if (APPS_SCRIPT_URL && APPS_SCRIPT_URL !== 'const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwsxp1-2geuQe0ILe7frcdQJg4FyX6pa8hWbXctDC1WeraMWwIqirB2J6CIkCPfyvJX/exec';') {
+    if (APPS_SCRIPT_URL) {
     try {
       const res = await fetch(APPS_SCRIPT_URL, {
         method: 'POST',
